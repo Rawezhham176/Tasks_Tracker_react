@@ -95,3 +95,12 @@ input[type="checkbox"] {
 .header {
   display: inline;
 }
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about {
+  text-align: center;
+}

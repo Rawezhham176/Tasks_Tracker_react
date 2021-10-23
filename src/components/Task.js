@@ -5,7 +5,7 @@ const Task = ({task, onDelete, onToggle}) => {
     onDoubleClick={() => onToggle(task.id)}>
         <h3>{task.text} <FaTimes className='icon' onClick={() => onDelete(task.id)}
          /></h3>
-        <h3>{task.DayAndTime}</h3>
+        <h4>{task.DayAndTime}</h4>
     </div>
 }
 

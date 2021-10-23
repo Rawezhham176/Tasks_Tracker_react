@@ -2,11 +2,18 @@
   "tasks": [
     {
       "id": 1,
-      "task": "Hi to the people",
+      "text": "Hi",
+      "DayAndTime": "2.01.2210",
       "reminder": true
     },
     {
-      "id": 2
+      "id": 2,
+      "text": "I'm",
+      "DayAndTime": "2.01.2210",
+      "reminder": true
+    },
+    {
+      "id": 3
     }
   ]
 }
