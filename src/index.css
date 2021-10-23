@@ -1,13 +1,97 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0 100px;
+  justify-content: center;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 30px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.btn {
+  border: none;
+  border-radius: 25px;
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  float: right;
+}
+
+.btn:active {
+  color: rgb(214, 127, 127);
+}
+
+.task {
+  background-color: rgb(228, 229, 230);
+  color: black;
+  margin-top: 5px;
+  padding: 0.5px 10px 1px 10px;
+}
+
+.icon {
+  color: red;
+  cursor: pointer;
+  float: right;
+  font-size: 20px;
+}
+
+.reminder {
+  background-color: rgb(228, 229, 230);
+  color: black;
+  margin-top: 5px;
+  padding: 0.5px 10px 1px 10px;
+  border-left: 8px solid green;
+}
+
+.add-form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn-block {
+  width: 100%;
+  font-weight: 800;
+  float: none;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  padding-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+input[type="checkbox"] {
+  float: right;
+  margin-left: 400px;
+}
+
+.checklabel {
+  margin-top: 10px;
+  display: flex;
+}
+
+.header {
+  display: inline;
 }
